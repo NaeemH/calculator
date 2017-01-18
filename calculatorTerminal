@@ -1,0 +1,43 @@
+Last login: Wed Jan 18 11:22:24 on ttys000
+nwk-116-67:~ naeemhossain$ ls
+Applications		Movies			Public
+Desktop			Music			Tourifai
+Documents		NaeemH.github.io	eclipse
+Downloads		PaladinTemp		flask-ghpages-example
+Library			Pictures		url-shortener
+nwk-116-67:~ naeemhossain$ cd Desktop/Projects/C/calculator/
+nwk-116-67:calculator naeemhossain$ ls
+README.md	a.out		calculator.c
+nwk-116-67:calculator naeemhossain$ git init
+Reinitialized existing Git repository in /Users/naeemhossain/Desktop/Projects/C/calculator/.git/
+nwk-116-67:calculator naeemhossain$ git add .
+nwk-116-67:calculator naeemhossain$ git commit -m "this is enough documentation" 
+[master 4d52384] this is enough documentation
+ 1 file changed, 6 insertions(+)
+nwk-116-67:calculator naeemhossain$ git push -u origin master
+
+fatal: unable to access 'https://github.com/NaeemH/calculator.git/': Could not resolve host: github.com
+nwk-116-67:calculator naeemhossain$ 
+nwk-116-67:calculator naeemhossain$ git init
+Reinitialized existing Git repository in /Users/naeemhossain/Desktop/Projects/C/calculator/.git/
+nwk-116-67:calculator naeemhossain$ git add .
+nwk-116-67:calculator naeemhossain$ git commit -m"this is not my best project"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+nwk-116-67:calculator naeemhossain$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 423 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/NaeemH/calculator.git
+   98c8b8d..4d52384  master -> master
+Branch master set up to track remote branch master from origin by rebasing.
+nwk-116-67:calculator naeemhossain$ 
+
+
+
+
+
