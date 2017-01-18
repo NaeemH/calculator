@@ -7,6 +7,9 @@
 // ./a.out
 // ~
 
+// Convert to assembly:
+// gcc -S calculator.c
+
 // ON DESKTOP:
 // gcc calculator.c 
 // a
